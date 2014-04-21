@@ -3,17 +3,15 @@ Notes for our weekly Ruby on Rails development talks at [Fracture Atlas](http://
 
 # Table of Contents
 ===
-* [Ideas](http://)
-* [Ruby](http://)
-* [Concentration](http://)
+* [Ideas](https://github.com/iacutone/ruby-talk#ideas)
+* [Ruby](https://github.com/iacutone/ruby-talk#ruby)
+* [Concentration](https://github.com/iacutone/ruby-talk#concentration)
 
 
-#[Ideas](http://)
-===
+# [Ideas](https://github.com/iacutone/ruby-talk#ideas)
 
+# [Ruby](https://github.com/iacutone/ruby-talk#ruby)
 
-#[Ruby](http://)
-===
 Objects
 ```ruby
 a = "I am a cow."
@@ -25,7 +23,7 @@ a = "I am a cow."
   puts "B: #{b.object_id}"
 ```
 A: 70363942068800
+
 B: 70363942068800
 
-#[Concentration](http://)
-===
+# [Concentration](https://github.com/iacutone/ruby-talk#concentration)
