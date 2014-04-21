@@ -8,9 +8,9 @@ A place to save notes for weekly pair programming sessions at [Fracture Atlas](h
 * [Concentration](https://github.com/iacutone/ruby-talk#concentration)
 
 
-# [Ideas](https://github.com/iacutone/ruby-talk#ideas)
+# Ideas
 
-# [Ruby](https://github.com/iacutone/ruby-talk#ruby)
+# Ruby
 
 Objects
 ```ruby
@@ -28,4 +28,4 @@ B: 70363942068800
 
 Both objects point to the same thing.
 
-# [Concentration](https://github.com/iacutone/ruby-talk#concentration)
+# Concentration
