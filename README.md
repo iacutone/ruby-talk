@@ -1,8 +1,8 @@
+# Why?
 
-Notes for our weekly Ruby on Rails development talks at [Fracture Atlas](http://www.fracturedatlas.org/). 
+A place to save notes for weekly pair programming sessions at [Fracture Atlas](http://www.fracturedatlas.org/). 
 
 # Table of Contents
-===
 * [Ideas](https://github.com/iacutone/ruby-talk#ideas)
 * [Ruby](https://github.com/iacutone/ruby-talk#ruby)
 * [Concentration](https://github.com/iacutone/ruby-talk#concentration)
@@ -25,5 +25,7 @@ a = "I am a cow."
 A: 70363942068800
 
 B: 70363942068800
+
+Both objects point to the same thing.
 
 # [Concentration](https://github.com/iacutone/ruby-talk#concentration)
