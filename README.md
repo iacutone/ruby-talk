@@ -76,7 +76,7 @@ git rebase master
 
 
 # Sublime
-controL + shift + k
+control + shift + k
 	
 - kill a line
 
