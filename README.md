@@ -3,29 +3,83 @@
 A place to save notes for weekly pair programming sessions at [Fracture Atlas](http://www.fracturedatlas.org/). 
 
 # Table of Contents
-* [Ideas](https://github.com/iacutone/ruby-talk#ideas)
+* [CLI](https://github.com/iacutone/ruby-talk#cli)
 * [Ruby](https://github.com/iacutone/ruby-talk#ruby)
-* [Concentration](https://github.com/iacutone/ruby-talk#concentration)
+* [Rails](https://github.com/iacutone/ruby-talk#rails)
+* [GitHub](https://github.com/iacutone/ruby-talk#github)
+* [Sublime](https://github.com/iacutone/ruby-talk#sublime)
 
 
-# Ideas
+# CLI
+Helpful Commands
+Push <spacebar> in order to go to the next page of text in bash. 
 
 # Ruby
 
-Objects
+Objects in Memory
 ```ruby
+# test.rb
+
 a = "I am a cow."
-  def wow(str)
-    str.insert(-1, '*WOW*')
-  end
-  b = wow( a )
-  puts "A: #{a.object_id}"
-  puts "B: #{b.object_id}"
+
+def wow(str)
+  str.insert(-1, '*WOW*')
+end
+
+b = wow( a )
+
+puts "A: #{a.object_id}"
+puts "B: #{b.object_id}"
+a.object_id == b.object_id
 ```
-A: 70363942068800
 
-B: 70363942068800
+```bash
+ruby test.rb
+A: 70177366710780
+B: 70177366710780
+true
+```
 
-Both objects point to the same thing.
+# Rails
+Destroy vs. Delete
+```ruby
+Object.destroy_all
+# => Fires all callbacks and dependencies
+Object.delete_all
+# => Only deletes current table, orhpans dependencies
+```
 
-# Concentration
+# GitHub
+Helpful Commands
+```bash
+git help diff
+
+Comparing branches
+
+     $ git diff topic master    (1)
+     $ git diff topic..master   (2)
+     $ git diff topic...master  (3)
+
+ 1. Changes between the tips of the topic and the master branches.
+ 2. Same as above.
+ 3. Changes that occurred on the master branch since when the topic branch was started off it.
+```
+
+A good way to merge remote master onto a local branch
+```bash
+git checkout master
+git fetch
+git pull --rebase
+git checkout <branch>
+git rebase master
+```
+
+
+# Sublime
+<controL> + <shift> + <k>
+	
+- kill a line
+
+<control> + <t> + "File directory/" 
+	
+- to hone in on a specific file under a directory
