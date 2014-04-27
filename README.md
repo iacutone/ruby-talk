@@ -11,12 +11,12 @@ A place to save notes for weekly pair programming sessions at [Fracture Atlas](h
 
 
 # CLI
-Helpful Commands
-Push <spacebar> in order to go to the next page of text in bash. 
+### Helpful Commands
+Push spacebar in order to go to the next page of text in bash. 
 
 # Ruby
 
-Objects in Memory
+### Objects in Memory
 ```ruby
 # test.rb
 
@@ -41,7 +41,7 @@ true
 ```
 
 # Rails
-Destroy vs. Delete
+### Destroy vs. Delete
 ```ruby
 Object.destroy_all
 # => Fires all callbacks and dependencies
@@ -50,7 +50,7 @@ Object.delete_all
 ```
 
 # GitHub
-Helpful Commands
+### Helpful Commands
 ```bash
 git help diff
 
@@ -76,10 +76,10 @@ git rebase master
 
 
 # Sublime
-<controL> + <shift> + <k>
+controL + shift + k
 	
 - kill a line
 
-<control> + <t> + "File directory/" 
+control + t + "File directory/" 
 	
 - to hone in on a specific file under a directory
