@@ -26,7 +26,7 @@ def wow(str)
   str.insert(-1, '*WOW*')
 end
 
-b = wow( a )
+b = wow(a)
 
 puts "A: #{a.object_id}"
 puts "B: #{b.object_id}"
@@ -80,6 +80,6 @@ control + shift + k
 	
 - kill a line
 
-control + t + "File directory/" 
+command + t + "File directory/" 
 	
 - to hone in on a specific file under a directory
