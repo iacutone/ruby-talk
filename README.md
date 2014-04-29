@@ -6,6 +6,7 @@ A place to save notes for weekly pair programming sessions at [Fracture Atlas](h
 * [CLI](https://github.com/iacutone/ruby-talk#cli)
 * [Ruby](https://github.com/iacutone/ruby-talk#ruby)
 * [Rails](https://github.com/iacutone/ruby-talk#rails)
+* [Testing](https://github.com/iacutone/ruby-talk#testing)
 * [GitHub](https://github.com/iacutone/ruby-talk#github)
 * [Sublime](https://github.com/iacutone/ruby-talk#sublime)
 
@@ -47,6 +48,18 @@ Object.destroy_all
 # => Fires all callbacks and dependencies
 Object.delete_all
 # => Only deletes current table, orhpans dependencies
+```
+
+# Testing
+### Delayed Job
+If delayed job is making tests fail, put the perform method into a before block:
+```ruby
+context "events" do
+  before do
+    latlong_array = venue.geocode
+    venue.update_attributes(lat: latlong_array.first, long: latlong_array.last)
+  end
+end
 ```
 
 # GitHub
