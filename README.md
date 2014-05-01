@@ -17,7 +17,7 @@ Push spacebar in order to go to the next page of text in bash.
 
 Markdown file to HTML file
 ```bash
-pandoc -o html_file md_file
+pandoc -o output.html input.md
 ```
 
 # Ruby
