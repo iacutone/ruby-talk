@@ -13,7 +13,12 @@ A place to save notes for weekly pair programming sessions at [Fracture Atlas](h
 
 # CLI
 ### Helpful Commands
-Push spacebar in order to go to the next page of text in bash. 
+Push spacebar in order to go to the next page of text in bash.
+
+Markdown file to HTML file
+```bash
+pandoc -o html_file md_file
+```
 
 # Ruby
 
