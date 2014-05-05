@@ -7,9 +7,9 @@ A place to save notes for weekly pair programming sessions at [Fracture Atlas](h
 * [Ruby](https://github.com/iacutone/ruby-talk#ruby)
 * [Rails](https://github.com/iacutone/ruby-talk#rails)
 * [Testing](https://github.com/iacutone/ruby-talk#testing)
+* [CSS](https://github.com/iacutone/ruby-talk#css)
 * [GitHub](https://github.com/iacutone/ruby-talk#github)
 * [Sublime](https://github.com/iacutone/ruby-talk#sublime)
-
 
 # CLI
 ### Helpful Commands
@@ -19,6 +19,11 @@ Markdown file to HTML file
 ```bash
 pandoc -o output.html input.md
 ```
+Start using ack instead of grep.
+```bash
+ack
+```
+
 
 # Ruby
 
@@ -66,6 +71,22 @@ context "events" do
   end
 end
 ```
+
+# CSS
+### Nested DOM Trees
+```css
+div h1{
+  background: red;
+}
+```
+Selects all h1 tags nested inside of a div tag.
+
+```css
+div > h1 {
+  background: red;
+}
+```
+Selects immediate children of specified element.
 
 # GitHub
 ### Helpful Commands
