@@ -75,7 +75,7 @@ end
 # CSS
 ### Nested DOM Trees
 ```css
-div h1{
+div h1 {
   background: red;
 }
 ```
