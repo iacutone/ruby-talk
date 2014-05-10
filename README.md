@@ -5,6 +5,7 @@ A place to save notes for weekly pair programming sessions at [Fracture Atlas](h
 # Table of Contents
 * [CLI](https://github.com/iacutone/ruby-talk#cli)
 * [Ruby](https://github.com/iacutone/ruby-talk#ruby)
+* [JavaScript](https://github.com/iacutone/ruby-talk#javascript)
 * [Rails](https://github.com/iacutone/ruby-talk#rails)
 * [Testing](https://github.com/iacutone/ruby-talk#testing)
 * [CSS](https://github.com/iacutone/ruby-talk#css)
@@ -50,6 +51,10 @@ A: 70177366710780
 B: 70177366710780
 true
 ```
+
+# JavaScript
+[Performance Testing](https://github.com/iacutone/ruby-talk#https://github.com/iacutone/js-perf)
+
 
 # Rails
 ### Destroy vs. Delete
