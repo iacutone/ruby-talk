@@ -53,7 +53,7 @@ true
 ```
 
 # JavaScript
-[Performance Testing](https://github.com/iacutone/ruby-talk#https://github.com/iacutone/js-perf)
+[Performance Testing](https://github.com/iacutone/js-perf)
 
 
 # Rails
