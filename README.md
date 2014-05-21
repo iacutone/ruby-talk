@@ -77,6 +77,11 @@ context "events" do
 end
 ```
 
+When your tests fail in RSpec, the bottom of the log displays a command in order to run a single test:
+```bash
+ rspec ./spec/features/model/sign_in_spec.rb:66
+ ```
+
 # CSS
 ### Nested DOM Trees
 ```css
