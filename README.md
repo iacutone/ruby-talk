@@ -123,6 +123,7 @@ git checkout <branch>
 git rebase master
 ```
 
+Force changes to a remote git repository.
 ```bash
 git push origin <branch> -f
 ```
