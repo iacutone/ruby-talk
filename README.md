@@ -123,6 +123,12 @@ git checkout <branch>
 git rebase master
 ```
 
+```bash
+git push origin <branch> -f
+```
+-f, --force
+           Usually, the command refuses to update a remote ref that is not an ancestor of the local ref used to overwrite it. This flag disables the check. This can cause
+           the remote repository to lose commits; use it with care.
 
 # Sublime
 control + shift + k
