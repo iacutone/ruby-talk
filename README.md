@@ -54,6 +54,8 @@ true
 
 ###Hash
 ```ruby
+# test.rb
+
 array = ['one', 'two', 'three', 'three']
 hash = {}
 array.each do |object|
@@ -66,7 +68,7 @@ end
 ruby test.rb
 {"one"=>0, "two"=>0, "three"=>0}
 ```
-A hash needs a unique key, therefore multiple objects will be removed (in this case, the extra string three).
+A hash needs a unique key, therefore multiple objects with the same value will be removed (in this case, the extra string three).
 
 # JavaScript
 [Performance Testing](https://github.com/iacutone/js-perf)
