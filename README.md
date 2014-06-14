@@ -52,6 +52,22 @@ B: 70177366710780
 true
 ```
 
+###Hash
+```ruby
+array = ['one', 'two', 'three', 'three']
+hash = {}
+array.each do |object|
+  hash[object] = 0
+  puts hash
+end
+```
+
+```bash
+ruby test.rb
+{"one"=>0, "two"=>0, "three"=>0}
+```
+A hash needs a unique key, therefore multiple objects will be removed (in this case, the extra string three).
+
 # JavaScript
 [Performance Testing](https://github.com/iacutone/js-perf)
 
