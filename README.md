@@ -52,6 +52,29 @@ B: 70177366710780
 true
 ```
 
+Use attr_reader instead of instance variable.
+```ruby
+class TestClass
+  
+  attr_reader :name
+  
+  def initialize(options = {})
+    @name = options[:name]
+  end
+  
+  def say_hi
+    puts "Hello, " + name
+  end
+end
+```
+Using the attr_reader method "name" leads to cleaner code.
+
+```bash
+name = TestClass.new(:name => "Eric")
+name.say_hi
+=> "Hello, Eric"
+```
+
 ###Hash
 ```ruby
 # test.rb
