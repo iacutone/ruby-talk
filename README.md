@@ -103,7 +103,7 @@ x | y => [1, 2, 3]
 0 ^ 0 => 0
 0 ^ 1 => 1
 1 ^ 0 => 1
-1 ^ 1 -> 0
+1 ^ 1 => 0
 ```
 
 Output is true whenever the input differs.
