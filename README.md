@@ -75,7 +75,7 @@ name.say_hi
 => "Hello, Eric"
 ```
 
-###Hash
+### Hash
 ```ruby
 # test.rb
 
@@ -93,11 +93,27 @@ ruby test.rb
 ```
 A hash needs a unique key, therefore multiple objects with the same value will be removed (in this case, the extra string three).
 
+### Logical (and or XOR)
+```bash
+x = [1, 2]
+y = [2, 3]
+x & y => [2]
+x | y => [1, 2, 3]
+
+0 ^ 0 => 0
+0 ^ 1 => 1
+1 ^ 0 => 1
+1 ^ 1 -> 0
+```
+
+Output is true whenever the input differs.
+
 # JavaScript
 [Performance Testing](https://github.com/iacutone/js-perf)
 
 
 # Rails
+## Active Record
 ### Destroy vs. Delete
 ```ruby
 Object.destroy_all
