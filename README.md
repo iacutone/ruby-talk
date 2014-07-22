@@ -171,6 +171,36 @@ Comparing branches
  3. Changes that occurred on the master branch since when the topic branch was started off it.
 ```
 
+
+```bash
+git rebase --onto <branch_name> <commit>..<commit>
+```
+Here is how you would transplant a topic branch based on one branch to another, to pretend that you forked the topic branch from the latter branch, using rebase
+       --onto.
+
+       First let's assume your topic is based on branch next. For example, a feature developed in topic depends on some functionality which is found in next.
+
+               o---o---o---o---o  master
+                    \
+                     o---o---o---o---o  next
+                                      \
+                                       o---o---o  topic
+
+
+       We want to make topic forked from branch master; for example, because the functionality on which topic depends was merged into the more stable master branch. We want
+       our tree to look like this:
+
+               o---o---o---o---o  master
+                   |            \
+                   |             o'--o'--o'  topic
+                    \
+                     o---o---o---o---o  next
+
+
+       We can get this using the following command:
+
+           git rebase --onto master next topic
+
 A good way to merge remote master onto a local branch
 ```bash
 git checkout master
@@ -187,6 +217,15 @@ git push origin <branch> -f
 -f, --force
            Usually, the command refuses to update a remote ref that is not an ancestor of the local ref used to overwrite it. This flag disables the check. This can cause
            the remote repository to lose commits; use it with care.
+
+```bash
+git merge <branch> --no-ff
+```           
+--ff
+           When the merge resolves as a fast-forward, only update the branch pointer, without creating a merge commit. This is the default behavior.
+
+       --no-ff
+           Create a merge commit even when the merge resolves as a fast-forward.
 
 # Sublime
 control + shift + k
